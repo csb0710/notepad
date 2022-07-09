@@ -44,7 +44,7 @@ $ django-admin startproject 프로젝트이름
 
 -app 생성
 ```
-$ python3 manage.py startapp app
+$ python3 manage.py startapp app이름
 ```
 
 -migrations 설정
