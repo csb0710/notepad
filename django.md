@@ -63,5 +63,5 @@ $ python3 manage.py runserver
 control + c
 ```
 
-###django 프로젝트 디렉토리 내 .py 파일
+### django 프로젝트 디렉토리 내 .py 파일
 
