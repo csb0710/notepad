@@ -69,7 +69,7 @@ control + c
 * settings.py : 프로젝트의 환경 및 구성을 저장, 웹사이트 관련 설정을 하는 파일
 * urls.py : 사용자가 url 접근을 시도하면 path 형식에 따라 views.py 파일의 해당 메소드에 연결시키는 파일
 
-          path('address', views.py의 메소드 경로, path 이름)
+          path 형식 : path('address', views.py의 메소드 경로, path 이름)
 
 -App 디렉토리 하위
 * admin.py : admin page에 대한 설정을 하는 파일
