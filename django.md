@@ -58,10 +58,6 @@ $ python3 manage.py migrate
 $ python3 manage.py runserver
 ```
 
--server 닫기
-```
-control + c
-```
 
 ### django 디렉토리 하위 파일
 -----------------------------------------------------
