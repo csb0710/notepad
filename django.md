@@ -61,7 +61,7 @@ $ python3 manage.py runserver
 
 ### django 디렉토리 하위 파일
 -----------------------------------------------------
-*-Project 디렉토리 하위*
+* -Project 디렉토리 하위 *
 * settings.py : 프로젝트의 환경 및 구성을 저장, 웹사이트 관련 설정을 하는 파일
 * urls.py : 사용자가 url 접근을 시도하면 path 형식에 따라 views.py 파일의 해당 메소드에 연결시키는 파일
 
