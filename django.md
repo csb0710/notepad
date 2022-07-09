@@ -14,6 +14,8 @@ $ python -m venv .venv
 ```
   
   
+  
+  
 -가상 환경 활성화
 ```
 $ . .venv/bin/active        or        $ source .venv/bin/active
