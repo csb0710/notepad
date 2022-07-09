@@ -5,7 +5,7 @@
 ```
 $ cd 디렉토리네임
 ```
-
+\n
 -.venv 디렉토리 생성
 ```
 $ python -m venv .venv
