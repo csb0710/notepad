@@ -63,11 +63,15 @@ $ python3 manage.py runserver
 control + c
 ```
 
-### django 프로젝트 디렉토리 하위 .py 파일
+### django 디렉토리 하위 파일
 -----------------------------------------------------
+-Project 디렉토리 하위
+* settings.py : 프로젝트의 환경 및 구성을 저장, 웹사이트 관련 설정을 하는 파일
+* urls.py : 사용자가 url 접근을 시도하면 path 형식에 따라 views.py 파일의 해당 메소드에 연결시키는 파일
+    path('address', views.py의 메소드 경로, path 이름)
 
--app 디렉토리 하위
-* admin.py : 장고 관리자 웹을 구성하기 위해 필요한 파일
-* apps.py : 장고 웹앱에 대한 설정을 위한 파일
-* models.py : 데이터베이스에 정의하기 위한 모델들을 정의해두는 코드를 위한 파일
-* views.py : 웹 페이지나 웹 요청등을 처리하는 코드를 작성하는 파일
+-App 디렉토리 하위
+* admin.py : admin page에 대한 설정을 하는 파일
+* apps.py : app에 대한 기본 설정을 하는 파일
+* models.py : model에 대한 정보를 정의하는 파일 (테이블 필드 생성 및 정의)
+* views.py : html 페이지에서 발생하는 정보들의 input, output에 대해 관리하는 파일
