@@ -1,26 +1,31 @@
 ##Mac os 기반
 ### 가상 환경 생성 (venv)
-
+  
+  
 -가상 환경을 만들 디렉토리 생성후 이동
 ```
 $ cd 디렉토리네임
 ```
-   
+  
+  
 -.venv 디렉토리 생성
 ```
 $ python -m venv .venv
-```   
-
+```
+  
+  
 -가상 환경 활성화
 ```
 $ . .venv/bin/active        or        $ source .venv/bin/active
 ```
-
+  
+  
 -가상 환경 비활성화
 ```
 $ deactivate
 ```
-
+  
+  
 ### django 초기 설정
 
 -django 설치
