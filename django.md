@@ -1,4 +1,5 @@
-### 가상 환경 생성(venv)
+##Mac os 기반
+### 가상 환경 생성 (venv)
 
 -가상 환경을 만들 디렉토리 생성후 이동
 ```
@@ -20,7 +21,7 @@ $ . .venv/bin/active        or        $ source .venv/bin/active
 $ deactivate
 ```
 
-### django 초기 설정 (Mac)
+### django 초기 설정
 
 -django 설치
 ```
