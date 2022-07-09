@@ -39,12 +39,12 @@ $ python -m django --version
 
 -project 생성
 ```
-$ django-admin startproject 프로젝트네임
+$ django-admin startproject 프로젝트이름
 ```
 
 -app 생성
 ```
-$ python3 manage.py startapp app네임
+$ python3 manage.py startapp app
 ```
 
 -migrations 설정
