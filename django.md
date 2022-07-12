@@ -49,7 +49,7 @@ $ python3 manage.py startapp app이름
 
 -migrations 설정
 ```
-$ python3 manage.py makemigration
+$ python3 manage.py makemigrations
 $ python3 manage.py migrate
 ```
 
