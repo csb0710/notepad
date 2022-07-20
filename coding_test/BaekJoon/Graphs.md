@@ -1,6 +1,6 @@
 # Graphs
 
-## bfs
+### bfs
 #### 16236번 :  아기 상어 (골드3)
   * 문제 유형 : graphs, bfs, implementation, simulation
   * 시간 복잡도 : O(n^2)
