@@ -1,3 +1,5 @@
+# Dynamic Programming
+
 #### 9251번 :  LCS (골드5)
   * 문제 유형 : dp, 문자열
   * 시간 복잡도 : O(nm)
