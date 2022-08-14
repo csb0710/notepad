@@ -1,4 +1,4 @@
-# Etc_Algorithm
+# Etc Algorithm
 
 ### Union-Find
 
