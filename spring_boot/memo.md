@@ -25,4 +25,10 @@ Controller : 처리과정 담당
 form 테그를 이용해서 입력받은 사용자 정보를 controller에서 객체 형태로 받아오는데 이때의 객체를 DTO라고 함
 form 테그를 사용하는 mustache파일 또한 templates에 하위 폴더를 생성 후 작성   
 위에서 만든 controller와 같은 위치에 controller를 하나 더 만든 후 주소 mapping
+form 태그에서 입력받은 정보를 어디로 보낼지(action), 어떻게 보낼지(method)가 중요
+method가 post일 경우 GetMapping이 아닌 PostMapping을 이용해서 url을 mapping 해줘야함
+form에서 데이터를 입력받는 컨트롤러의 메소드의 경우 DTO를 이용해서 받아와야하기 때문에 매개변수로 따로 만들어논 DTO를 가짐
+DTO는 자바 클래스가 위치한 프로젝트 패키지 바로아래에 폴더하나를 생성한 후 만듬
+DTO내에 존재하는 클래스 필드와 동일한 이름으로 form 내에서 name을 지정해줘야함 
 
+처음 프로젝트를 만들 때 체크한 JPA의 역할은 자바가 db를 이해할 수 있도록 하는 역할
