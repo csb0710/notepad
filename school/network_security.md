@@ -7,7 +7,7 @@
 P2P : 블록체인 분야에서 사용되는 중심적인 기술, 중앙 관리자가 없음
 
 ### chapter.2
-OSI 7 Layer
+#### OSI 7 Layer
   
 -3개로 분류
 하위 계층 : Physical Layer -> Data link Layer -> Network Layer
@@ -65,7 +65,7 @@ Transport Layer : 하위 계층에서 전송한 내용을 상위 계층이 사�
 5. 디렉토리 서비스  
   
   
-TCP/IP 프로토콜  
+#### TCP/IP 프로토콜  
   
 물리층, 데이터 링크층, 네트워크층, 전송층, 응용층으로 구성(OSI와 달리 세션, 표현, 응용을 하나의 응용층으로 구성)  
   
